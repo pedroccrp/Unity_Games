@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f167de766b8cb845826c511cc1d62a1, type: 3}
+  m_Name: Framboesa
+  m_EditorClassIdentifier: 
+  plantName: Framboesa
+  requiredActionsToMidGrow: 3
+  requiredActionsToHarvest: 4
+  maxTimeToAction: 4
+  timeBetweenRequests: 5
+  pointsOnHarvers: 20
+  seedSprite: {fileID: 21300000, guid: 38650b17f277f424485620660ebfd0ae, type: 3}
+  midGrowSprite: {fileID: 21300000, guid: c0ee3d0564c7d5e4bb8ec6dc7c516f0b, type: 3}
+  totalGrowSprite: {fileID: 21300000, guid: bfc4f7fdb5ae37b43aab9a2dbd005d86, type: 3}
+  deadSprite: {fileID: 21300000, guid: 9a4353d8fb7ab6f4e8e6cb1cef58f8d6, type: 3}
+  spawnSound: {fileID: 8300000, guid: 2416171fd8abb574e91c3ccb52789011, type: 3}
+  midgrowSound: {fileID: 8300000, guid: 09238c205cc30974f8546160beb822df, type: 3}
+  totalGrowSound: {fileID: 8300000, guid: 50c04dbc64565824bb59added22812c0, type: 3}
+  deadSound: {fileID: 8300000, guid: 297a7a8931e8ceb45aba173a88a68067, type: 3}
+  newRequestSound: {fileID: 0}

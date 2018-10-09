@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7013444caee2b042b984c3f50b7f307, type: 3}
+  m_Name: 03 - Inseticida
+  m_EditorClassIdentifier: 
+  toolName: Inseticida
+  toolSprite: {fileID: 21300000, guid: 073da3e150d1a9d4ba67463fba699b8d, type: 3}
+  toolUseSound: {fileID: 8300000, guid: 6c88e7a7206763c499058640b2ef345a, type: 3}

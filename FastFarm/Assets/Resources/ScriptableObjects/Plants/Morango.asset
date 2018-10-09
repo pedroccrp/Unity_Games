@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f167de766b8cb845826c511cc1d62a1, type: 3}
+  m_Name: Morango
+  m_EditorClassIdentifier: 
+  plantName: Morango
+  requiredActionsToMidGrow: 2
+  requiredActionsToHarvest: 4
+  maxTimeToAction: 5
+  timeBetweenRequests: 4
+  pointsOnHarvers: 10
+  seedSprite: {fileID: 21300000, guid: 10dc6a1a9ca336d479a26b49a0bc5da8, type: 3}
+  midGrowSprite: {fileID: 21300000, guid: 21d64041dceea8b4581d737c49920e32, type: 3}
+  totalGrowSprite: {fileID: 21300000, guid: c74dcc2822255434cb37ed7fe979f69a, type: 3}
+  deadSprite: {fileID: 21300000, guid: c7a8a6646176f4246b270e4081fdf140, type: 3}
+  spawnSound: {fileID: 8300000, guid: 2416171fd8abb574e91c3ccb52789011, type: 3}
+  midgrowSound: {fileID: 8300000, guid: 09238c205cc30974f8546160beb822df, type: 3}
+  totalGrowSound: {fileID: 8300000, guid: 50c04dbc64565824bb59added22812c0, type: 3}
+  deadSound: {fileID: 8300000, guid: 297a7a8931e8ceb45aba173a88a68067, type: 3}
+  newRequestSound: {fileID: 0}
