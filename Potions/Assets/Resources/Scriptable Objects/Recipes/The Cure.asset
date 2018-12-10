@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c1c49f04316d04886647907fd0f394, type: 3}
+  m_Name: The Cure
+  m_EditorClassIdentifier: 
+  PossibleIngredients:
+  - {fileID: 11400000, guid: c3fbda14335f5d54e8567b749527863d, type: 2}
+  - {fileID: 11400000, guid: 683051b36eb1bc54fbaa9e9d40cbb317, type: 2}
+  - {fileID: 11400000, guid: 48ae22dc47114fa42bfd14982560b608, type: 2}
+  - {fileID: 11400000, guid: 4fd756942aa80b547b29016238ea40ca, type: 2}
+  - {fileID: 11400000, guid: 913d31f1c203b7640a6c45f7c9829fdb, type: 2}
+  - {fileID: 11400000, guid: 5b6cc783e22eda440b37194c392324f6, type: 2}
+  - {fileID: 11400000, guid: 1b6104f1ee71e7f4ba8a982371a60aab, type: 2}
+  - {fileID: 11400000, guid: 63e65ffeb9d2e07418c7e3d606b9dd25, type: 2}
+  Steps:
+  - correctIngredient: {fileID: 11400000, guid: 4fd756942aa80b547b29016238ea40ca,
+      type: 2}
+    ingredientRiddle: Fried or roasted, I`m eating it!
+  - correctIngredient: {fileID: 11400000, guid: 683051b36eb1bc54fbaa9e9d40cbb317,
+      type: 2}
+    ingredientRiddle: Does it gets spoiled? Or it spoils things?
+  - correctIngredient: {fileID: 11400000, guid: 48ae22dc47114fa42bfd14982560b608,
+      type: 2}
+    ingredientRiddle: Well, if it didn`t kill you by now, it`s probably non-poisonous.
+  - correctIngredient: {fileID: 11400000, guid: 63e65ffeb9d2e07418c7e3d606b9dd25,
+      type: 2}
+    ingredientRiddle: Never tells his secrets!
+  - correctIngredient: {fileID: 11400000, guid: 913d31f1c203b7640a6c45f7c9829fdb,
+      type: 2}
+    ingredientRiddle: Should be threatening! But, for some reason, it isn`t...
+  - correctIngredient: {fileID: 11400000, guid: c3fbda14335f5d54e8567b749527863d,
+      type: 2}
+    ingredientRiddle: After all this walk in the sun, it should be a lot thinner.
+  - correctIngredient: {fileID: 11400000, guid: 1b6104f1ee71e7f4ba8a982371a60aab,
+      type: 2}
+    ingredientRiddle: Could`ve stayed home watching it!
+  - correctIngredient: {fileID: 11400000, guid: 5b6cc783e22eda440b37194c392324f6,
+      type: 2}
+    ingredientRiddle: Call me crazy, but... Is this thing`s heart out of place?

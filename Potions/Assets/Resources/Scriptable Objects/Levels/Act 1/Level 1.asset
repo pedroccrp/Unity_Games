@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdc60daa2b816c41a63d010f91dce4b, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  levelName: The Greedy Merchant
+  BeforePotionDialog:
+  - Hi there! You seem like an Expert Potion Maker...
+  - So... Tel me... Are you going to cure the Princess?
+  - Oh, isn't that lovely? What a nice person you are!
+  - And you need what? But I can't give it to you, it's mine, you see?
+  - Of course if you prepare one potion for me... I think I can give it to you. (Or
+    not hehehe)
+  AfterPotionDialog:
+  - Thanks for the potion fella! Bye!
+  - '*Grabs merchant*'
+  - Hey hey! Don't need to be agressive! Here is the ingredient. Geez...
+  unlockedIngredient: {fileID: 11400000, guid: 5b6cc783e22eda440b37194c392324f6, type: 2}
+  potionToMake: {fileID: 11400000, guid: 0cdf6b9e2482e14418c60a746603170a, type: 2}

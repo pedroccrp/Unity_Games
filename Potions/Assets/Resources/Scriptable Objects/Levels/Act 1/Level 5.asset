@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdc60daa2b816c41a63d010f91dce4b, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  levelName: The Princess
+  BeforePotionDialog:
+  - Oh... It's you, Potion Maker... *Cof* *Cof*
+  - I was waiting for you...
+  - This is my last chance... So...
+  - Please do your best! *Cof*
+  AfterPotionDialog:
+  - I knew you could do it!
+  - I feel much better now!
+  - Now I can rule this kingdom and bring all the joy back.
+  - And it's all thanks to you!
+  unlockedIngredient: {fileID: 0}
+  potionToMake: {fileID: 11400000, guid: 24de45a4c85c3504b8c761b259b8adc7, type: 2}

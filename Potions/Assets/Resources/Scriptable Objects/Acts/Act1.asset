@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc8923ab41a585c4daa482d9ebe56ade, type: 3}
+  m_Name: Act1
+  m_EditorClassIdentifier: 
+  actTitle: The Sick Princess
+  actSentences:
+  - Once upon a time, there was a great kingdom named Belladore.
+  - This Kingdom was full of treasures never even dreamt of by the rest of the world.
+  - But one day, after the Queen died, the Princess got really sick and couldn't take
+    care of the Kingdom.
+  - Many tried cure the Princess... But nobody achieved sucess.
+  - Now, it's your turn to venture through the kingdom and take the Potion to cure
+    the Princess.
+  actEndingSentences:
+  - And just like this, it finally ended.
+  - The Princess is saved and now she can rule this kingdom once again.
+  - Your adventure here was short but unforgetable.
+  - 'You made some friends (maybe not the merchant), and they will remember you for
+    a long time. '
+  - Now your adventure continues throughout the world...
+  - But...
+  - That's a whole another story!
+  actImages:
+  - {fileID: 21300000, guid: 76022c863ac939b41a60886e2270bc72, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  actEndingImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  actLevels:
+  - {fileID: 11400000, guid: e9e5450838421dd49a6ef7a3f008b651, type: 2}
+  - {fileID: 11400000, guid: e7f3c692915332d4c8b6a19cddc020f1, type: 2}
+  - {fileID: 11400000, guid: cbaacc79d8975d1439880035ec6d4262, type: 2}
+  - {fileID: 11400000, guid: 9a27aae6b7c06604d9614004cd779628, type: 2}
+  - {fileID: 11400000, guid: 8403410b2c00da24090e9b5d5ad88f71, type: 2}

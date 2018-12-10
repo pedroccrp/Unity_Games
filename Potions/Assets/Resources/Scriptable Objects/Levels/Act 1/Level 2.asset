@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdc60daa2b816c41a63d010f91dce4b, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  levelName: The Lustful Witch
+  BeforePotionDialog:
+  - Hello, Sweetie! Are you the Potion Maker that will cure the princess?
+  - You know, I tried and failed. So... I don't think that you can do it.
+  - It's not that you are bad or anything... The thing is... I'm amazing!
+  - So if I couldn't do it, nobody can.
+  - You will do what? Prepare a potion to me to prove yourself?
+  - Hahaha! People these days, just need to make a show for themselves, right?
+  - Fine then. If you make a good potion, I will give you one of mine special Ingredients!
+  AfterPotionDialog:
+  - Oh Sweetie! This potion is fantastic!
+  - It paid off being so showy right? *Giggles*
+  - As promised, here it is!
+  unlockedIngredient: {fileID: 11400000, guid: 683051b36eb1bc54fbaa9e9d40cbb317, type: 2}
+  potionToMake: {fileID: 11400000, guid: 73bab55c9dad90245a5e14100057368b, type: 2}

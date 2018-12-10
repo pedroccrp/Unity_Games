@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdc60daa2b816c41a63d010f91dce4b, type: 3}
+  m_Name: Level 3
+  m_EditorClassIdentifier: 
+  levelName: The Wicked Brothers
+  BeforePotionDialog:
+  - 'B1: Hey, brother! What''s that you are playing with? Meow! '
+  - 'B2: I captured this thing! I don''t know what it is...'
+  - '*Squirms in the trap*'
+  - 'B1: Oh! I know what it is! Its a fish! Meow!'
+  - 'B2: No, Stupid! That''s a human! I think he''s trying to speak! '
+  - '*Takes cloth out of Potion Maker''s mouth*'
+  - 'B1: Oh, so you are the Potion Maker! Sorry about this! We were just trying to
+    catch something to eat... Meow! '
+  - 'B2: Hey hey, Mr. Potion Maker! I had an idea!'
+  - 'B1: And what is that, Brother? Meow!'
+  - 'B2: Can you make us some Potion to keep our bellys full? We are starving...'
+  - 'B1: Yes yes! In exchange, we will give you one Present! It was from our mother,
+    Sarah! Meow!'
+  - 'B2: (Hey, Brother. Are we really going to give him that?)'
+  - 'B1: (No problem, Bro! If he fails, we can eat him!) Meow!'
+  - 'B2: (Ok, but... Stop saying "Meow" all the time, you are not a Cat)'
+  - 'B1: (Okay, Bro...)'
+  AfterPotionDialog:
+  - 'B1: Thanks for the Potion, Mr!'
+  - 'B2: Yes, thank you very much! Now we don''t need to concern about food for days!'
+  - 'B1 : (Luck him we didn''t have to eat him!)'
+  - '*Grabs item and goes away ASAP*'
+  unlockedIngredient: {fileID: 11400000, guid: 4fd756942aa80b547b29016238ea40ca, type: 2}
+  potionToMake: {fileID: 11400000, guid: 09fe10077e7075d4f9a75d2846ce0145, type: 2}

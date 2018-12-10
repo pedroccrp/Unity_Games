@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8af54022246eda4b921409d73ba9bd6, type: 3}
+  m_Name: Purple Frog
+  m_EditorClassIdentifier: 
+  id: 2
+  ingredientName: Purple_Frog
+  sprite: {fileID: 21300000, guid: 2614ee9fce33b46438a7d831b73e30be, type: 3}
+  animController: {fileID: 9100000, guid: 9bd12d96c3761e14fbc8160f160a9017, type: 2}
+  description: Wait... Was purple poisionous or not? Well, let's touch and see...

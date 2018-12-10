@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c1c49f04316d04886647907fd0f394, type: 3}
+  m_Name: The Transmutation Potion
+  m_EditorClassIdentifier: 
+  PossibleIngredients:
+  - {fileID: 11400000, guid: c3fbda14335f5d54e8567b749527863d, type: 2}
+  - {fileID: 11400000, guid: 683051b36eb1bc54fbaa9e9d40cbb317, type: 2}
+  - {fileID: 11400000, guid: 48ae22dc47114fa42bfd14982560b608, type: 2}
+  - {fileID: 11400000, guid: 4fd756942aa80b547b29016238ea40ca, type: 2}
+  - {fileID: 11400000, guid: 5b6cc783e22eda440b37194c392324f6, type: 2}
+  - {fileID: 11400000, guid: 1b6104f1ee71e7f4ba8a982371a60aab, type: 2}
+  - {fileID: 11400000, guid: 63e65ffeb9d2e07418c7e3d606b9dd25, type: 2}
+  Steps:
+  - correctIngredient: {fileID: 11400000, guid: 1b6104f1ee71e7f4ba8a982371a60aab,
+      type: 2}
+    ingredientRiddle: Just learned a new potion there. Technology, yay!
+  - correctIngredient: {fileID: 11400000, guid: 4fd756942aa80b547b29016238ea40ca,
+      type: 2}
+    ingredientRiddle: It has human and animal names on it's name. So maybe it'll help
+      transforming him...
+  - correctIngredient: {fileID: 11400000, guid: 5b6cc783e22eda440b37194c392324f6,
+      type: 2}
+    ingredientRiddle: Like to eat directly from the font. But what about the stings...?
+  - correctIngredient: {fileID: 11400000, guid: c3fbda14335f5d54e8567b749527863d,
+      type: 2}
+    ingredientRiddle: Maybe we can transform it back to it's original size?
+  - correctIngredient: {fileID: 11400000, guid: 48ae22dc47114fa42bfd14982560b608,
+      type: 2}
+    ingredientRiddle: I don't know about you. But, for me, this color is pretty strange
+      for a...
+  - correctIngredient: {fileID: 11400000, guid: 63e65ffeb9d2e07418c7e3d606b9dd25,
+      type: 2}
+    ingredientRiddle: Probably could transform the Knight back... But just if it was
+      a little bigger...
